@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.8rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+form fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+form label {
+    width: 15em;
+    display: inline-block;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.form-group input, .form-group select {
+    height: 2em;
+    font-size: 1.7rem;
+}
+
+.form-group select {
+    width: 15em;
+}
+
+.form-group input[type=number]:hover::-webkit-inner-spin-button {  
+    width: 1em;
+    height: 2em;
+}
+
+.button {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: #f6f6f6;
+    font-size: 1.8rem;
+}
+
+.button-primary {
+    background-color: forestgreen;
+}
